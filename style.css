@@ -1,0 +1,100 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+	background-image: linear-gradient(to right top, #1241bd, #006bd7, #0082b4, #00906b, #059809);
+}
+
+#header
+{
+	color:whitesmoke ;
+	font-family: 'Inconsolata', monospace;
+	font-size: xxx-large;
+margin-top: 30px;
+}
+
+#header img
+{
+	width: 90px;margin-left: -15px;
+	height: 90px;
+
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+	background-image: linear-gradient(to right top, #ec2b33, #fa6318, #fe9200, #f8bf00, #e8e909);
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+#div_mg
+{
+	position: fixed;bottom: 0px;width: 100%;
+}
+#mg_input
+{
+	width: 80%;
+}
+#send_button
+{
+	margin-top: 15px;
+	width: 40%; 
+	margin-bottom: 15px;
+font-size: large;
+	background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.color_white
+{
+	color: white
+}
+#heading{
+	color: white;
+	font-size: larger;
+	margin-bottom: 15px;
+}
+#logout{
+border-color: black;
+background-color:lightgreen
+}
